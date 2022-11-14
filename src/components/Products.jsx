@@ -24,7 +24,7 @@ const Products = () => {
         return (
           <div
             className="flex bg-gradient-to-t from-slate-100 to-slate-200 h-[280px] w-[220px] p-3 hover:shadow-lg hover:shadow-slate-200 cursor-pointer"
-            key={product.id}
+            key={product._id}
           >
             <Product product={product} />
           </div>
