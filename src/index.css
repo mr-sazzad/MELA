@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.navbar-left-side {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.navbar-right-side {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+}
+.hero-section-light {
+  background-image: url(https://learnwithsumit.com/_next/static/media/pattern.afd33a3d.svg);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  object-fit: contain;
+}
+.hero-section-dark {
+  background-image: url(https://learnwithsumit.com/_next/static/media/pattern-dark.20747baf.svg);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  object-fit: contain;
+}
+.hero-text-gradient {
+  background: linear-gradient(to right, #06609b, #01df96);
+  /* background: -webkit-linear-gradient(#06609b, #01df96); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.input-box input {
+  border: 1px solid #06609b;
+  padding: 7px 10px;
+  width: 300px;
+  border-radius: 5px;
+  outline: none;
+}
+.input-box span {
+  position: absolute;
+  left: 1px;
+  top: 2px;
+  padding: 5px 10px;
+  transition: 0.4s;
+  color: rgb(153, 153, 153);
+  background-color: #fff;
+}
+.input-box button {
+  position: absolute;
+  right: 3px;
+  top: 4px;
+  background-color: #06609b;
+  padding: 4px 5px;
+  border-radius: 0 3px 3px 0;
+  color: #fff;
+}
+
+.input-box input:focus ~ span {
+  transform: translateX(10px) translateY(-13px);
+  padding: 0 10px;
+  font-size: 16px;
+  color: #fff;
+  border-left: 1px solid #06609b;
+  border-right: 1px solid #06609b;
+  background-color: #146da8;
+}

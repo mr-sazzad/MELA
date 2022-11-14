@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "Screwdriver",
+    "image": "../src/assets/screwdriver.png",
+    "price": "1.5$"
+  },
+  {
+    "id": 2,
+    "name": "Screwdriver",
+    "image": "../src/assets/screwdriver-1.png",
+    "price": "1.5$"
+  },
+  {
+    "id": 3,
+    "name": "Screwdriver",
+    "image": "../src/assets/screwdriver-2.png",
+    "price": "2$"
+  },
+  {
+    "id": 4,
+    "name": "Tools Box",
+    "image": "../src/assets/Toolbox.png",
+    "price": "15$"
+  },
+  {
+    "id": 5,
+    "name": "Tools Box",
+    "image": "../src/assets/Toolbox-1.png",
+    "price": "8$"
+  },
+  {
+    "id": 6,
+    "name": "Tools Box",
+    "image": "../src/assets/Toolbox-2.png",
+    "price": "10$"
+  },
+  {
+    "id": 7,
+    "name": "Hammer",
+    "image": "../src/assets/hammer.png",
+    "price": "10$"
+  },
+  {
+    "id": 8,
+    "name": "Hammer",
+    "image": "../src/assets/hammer-1.png",
+    "price": "5$"
+  },
+  {
+    "id": 9,
+    "name": "Hammer",
+    "image": "../src/assets/hammer-2.png",
+    "price": "12$"
+  },
+  {
+    "id": 10,
+    "name": "Utility Knife",
+    "image": "../src/assets/Utility_Knife.png",
+    "price": "1.5$"
+  },
+  {
+    "id": 11,
+    "name": "Utility Knife",
+    "image": "../src/assets/Utility_Knife-2.png",
+    "price": "1.5$"
+  },
+  {
+    "id": 12,
+    "name": "Putty Knife",
+    "image": "../src/assets/Putty_Knife.png",
+    "price": "1$"
+  },
+  {
+    "id": 13,
+    "name": "Putty Knife",
+    "image": "../src/assets/Putty_Knife-1.png",
+    "price": "1$"
+  },
+  {
+    "id": 14,
+    "name": "Handsaw",
+    "image": "../src/assets/Handsaw.png",
+    "price": "8$"
+  },
+  {
+    "id": 15,
+    "name": "Handsaw",
+    "image": "../src/assets/Handsaw-1.png",
+    "price": "5$"
+  },
+  {
+    "id": 16,
+    "name": "Handsaw",
+    "image": "../src/assets/Handsaw-2.png",
+    "price": "10$"
+  },
+  {
+    "id": 17,
+    "name": "Wrench",
+    "image": "../src/assets/Wrench.png",
+    "price": "16$"
+  },
+  {
+    "id": 18,
+    "name": "Wrench",
+    "image": "../src/assets/Wrench-1.png",
+    "price": "6$"
+  },
+  {
+    "id": 19,
+    "name": "Wrench",
+    "image": "../src/assets/Wrench-2.png",
+    "price": "10$"
+  },
+  {
+    "id": 20,
+    "name": "Measure",
+    "image": "../src/assets/Measure.png",
+    "price": "2$"
+  },
+  {
+    "id": 21,
+    "name": "Measure",
+    "image": "../src/assets/Measure-1.png",
+    "price": "0.5$"
+  },
+  {
+    "id": 22,
+    "name": "Measure",
+    "image": "../src/assets/Measure-2.png",
+    "price": "1.5$"
+  },
+  {
+    "id": 23,
+    "name": "Level",
+    "image": "../src/assets/Level.png",
+    "price": "3$"
+  },
+  {
+    "id": 24,
+    "name": "Level",
+    "image": "../src/assets/Level-1.png",
+    "price": "5$"
+  },
+  {
+    "id": 25,
+    "name": "Duct Tape",
+    "image": "../src/assets/Duct_Tape.png",
+    "price": "5$"
+  },
+  {
+    "id": 26,
+    "name": "Pliers",
+    "image": "../src/assets/Pliers.png",
+    "price": "3$"
+  },
+  {
+    "id": 27,
+    "name": "Pliers",
+    "image": "../src/assets/Pliers-1.png",
+    "price": "3$"
+  },
+  {
+    "id": 28,
+    "name": "Pliers",
+    "image": "../src/assets/Pliers-2.png",
+    "price": "4$"
+  }
+]
