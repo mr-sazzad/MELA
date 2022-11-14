@@ -1,6 +1,6 @@
 import React from "react";
 import { GiShoppingCart } from "react-icons/gi";
-
+import Swal from "sweetalert2";
 const Product = ({ product }) => {
   const { name, price, image, _id } = product;
 
@@ -19,7 +19,15 @@ const Product = ({ product }) => {
       })
         .then((res) => res.json())
         .then((result) => {
-          console.log(result);
+          if (result) {
+            Swal.fire({
+              position: "top-end",
+              icon: "success",
+              title: "Your work has been saved",
+              showConfirmButton: false,
+              timer: 1500,
+            });
+          }
         });
     }
   };
